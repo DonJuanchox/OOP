@@ -162,13 +162,13 @@ def get_mails_between_date(self, folder, from_stamp, to_stamp):
 
 # if _name_ == "_main_":
 
-outlook = Email_Access()
+# outlook = Email_Access()
 
-# Test sending an email
-outlook.send_email('juannrodriguezpeinado@gruposantander.com',
-                   'This is a test',
-                   'This is a test', 
-                   html_body=True)
+# # Test sending an email
+# outlook.send_email('juannrodriguezpeinado@gruposantander.com',
+#                    'This is a test',
+#                    'This is a test', 
+#                    html_body=True)
 
 # Access to personal folder for broker prices and get today's emails
 # folder = outlook.get_personal_folder('Broker Prices: Correlation')
